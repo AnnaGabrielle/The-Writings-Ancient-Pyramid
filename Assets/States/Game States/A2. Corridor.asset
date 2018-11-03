@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef90c0482a0a0524a89991cc99215d42, type: 3}
+  m_Name: A2. Corridor
+  m_EditorClassIdentifier: 
+  storyText: "You arrive in a long corridor. \nThere are many choices of paths. \n\nYou
+    choose to:\n1.Go to the Small Chamber\r\n2.Go to the Chamber with mysterious wall
+    \n3.Keep Going (Go to Hall)\r\n4.Go back to Entrance"
+  nextStates:
+  - {fileID: 11400000, guid: b2b90e4b349659a4aa00e82a916bceba, type: 2}
+  - {fileID: 11400000, guid: 803cea59ec7280746aa3b185a550ac5c, type: 2}
+  - {fileID: 11400000, guid: d71e9b0d27aaa7048bcc86c0beaa21b8, type: 2}
+  - {fileID: 11400000, guid: dba64783e9090ea4a9f7049a66fe4658, type: 2}
+  hiddenStates:
+  - {fileID: 11400000, guid: 21848e0cc43408f4997584c6d3b54030, type: 2}

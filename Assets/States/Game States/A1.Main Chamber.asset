@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef90c0482a0a0524a89991cc99215d42, type: 3}
+  m_Name: A1.Main Chamber
+  m_EditorClassIdentifier: 
+  storyText: "You enter the room with caution. \nYou see things written on the walls,
+    a hole in the\r middle of the room, and two doors: One to the Passage Chamber
+    and other to the Entrance. \n\nYou decide\r to:\n1. Read what is on the walls\r\n2.
+    Put your hand inside the hole\r\n3. Go to the Passage Chamber\n4. Go back to the
+    Entrance"
+  nextStates:
+  - {fileID: 11400000, guid: 438a1985a3c1719449389ee77c60d433, type: 2}
+  - {fileID: 11400000, guid: 0fe67ec42ae074c4386c7bec9bdb82b9, type: 2}
+  - {fileID: 11400000, guid: 368cd6b26b545a748a60fd2e2ea32fb5, type: 2}
+  - {fileID: 11400000, guid: dba64783e9090ea4a9f7049a66fe4658, type: 2}
+  hiddenStates: []

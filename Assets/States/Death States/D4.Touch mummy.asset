@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef90c0482a0a0524a89991cc99215d42, type: 3}
+  m_Name: D4.Touch mummy
+  m_EditorClassIdentifier: 
+  storyText: "It\u2019s the first time you see a mummy in front of you. \nThe idea
+    of\r finding such a mystical thing makes your heart accelerate. \nYou can\u2019t
+    control yourself and\r decides to touch it. \nThe moment you touch it, the rooms
+    gets pitch black. \nYou can\u2019t see a\r thing, just starts feeling cold. \nIt
+    gets colder and colder, you can\u2019t move anymore. "
+  nextStates: []
+  hiddenStates: []
+  stateType: 2

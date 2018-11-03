@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef90c0482a0a0524a89991cc99215d42, type: 3}
+  m_Name: D2.Hand in Hole
+  m_EditorClassIdentifier: 
+  storyText: "You put your hand inside the hole, hoping to find\r something to help
+    you get out of this place. \nWhat you actually find is a creature that enters\r
+    your skin and kills you."
+  nextStates: []
+  hiddenStates: []
+  stateType: 2

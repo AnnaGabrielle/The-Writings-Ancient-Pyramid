@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef90c0482a0a0524a89991cc99215d42, type: 3}
+  m_Name: A12.Hall
+  m_EditorClassIdentifier: 
+  storyText: "It seems just like the other corridor.. but there is a button on the
+    wall with\r something written on the side: \n\u201CHigher than 2 will help you,
+    2 or lower will kill you. Are you\r lucky today?.\u201D\r\n\nYou decide to:\r\n1.
+    Go back to Corridor"
+  nextStates:
+  - {fileID: 11400000, guid: 85e9fbf7bfb4e424cb9a7f798bfe81ae, type: 2}
+  hiddenStates:
+  - {fileID: 11400000, guid: c3e4ed1013ad03744854a76c52ff96ea, type: 2}

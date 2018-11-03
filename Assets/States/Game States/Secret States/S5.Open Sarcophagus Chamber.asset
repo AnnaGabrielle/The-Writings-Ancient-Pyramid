@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef90c0482a0a0524a89991cc99215d42, type: 3}
+  m_Name: S5.Open Sarcophagus Chamber
+  m_EditorClassIdentifier: 
+  storyText: "You got a number higher than 2! You sigh relieved.\nYou hear a noise
+    that appears to come from Passage Chamber.\r\n\n1. Go back to the Hall"
+  nextStates:
+  - {fileID: 11400000, guid: d71e9b0d27aaa7048bcc86c0beaa21b8, type: 2}
+  hiddenStates: []

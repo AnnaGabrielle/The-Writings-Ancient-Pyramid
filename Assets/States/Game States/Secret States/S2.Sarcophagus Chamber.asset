@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef90c0482a0a0524a89991cc99215d42, type: 3}
+  m_Name: S2.Sarcophagus Chamber
+  m_EditorClassIdentifier: 
+  storyText: "After entering the room, you feel a little cold coming from the center
+    of the room. \nYou notice\r there is a mummy in that location. \nMaybe there is
+    something more in the room. \n\nYou choose to:\r\n1.Touch the mummy\r\n2.Search
+    Sarcophagus Chamber\n3.Go back to Passage Chamber"
+  nextStates:
+  - {fileID: 11400000, guid: d6dca6d6cc5f91d48bf7d48b12f747a5, type: 2}
+  - {fileID: 11400000, guid: 01c89c9adf4661148a138384f8dde9e4, type: 2}
+  - {fileID: 11400000, guid: 368cd6b26b545a748a60fd2e2ea32fb5, type: 2}
+  hiddenStates: []

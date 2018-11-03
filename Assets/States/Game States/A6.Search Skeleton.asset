@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef90c0482a0a0524a89991cc99215d42, type: 3}
+  m_Name: A6.Search Skeleton
+  m_EditorClassIdentifier: 
+  storyText: "You decide to search the skeleton that was lying there. \nAfter a\r
+    while, you noticed that it was sitting on a piece of paper. \nYou take the paper
+    and tries to read\r it. \nThe paper is a map of the Entrance. \n\n\n1. Go back
+    to the Bones Chamber"
+  nextStates:
+  - {fileID: 11400000, guid: 7847217d33ea09849a08ace5d63b4f26, type: 2}
+  hiddenStates: []
