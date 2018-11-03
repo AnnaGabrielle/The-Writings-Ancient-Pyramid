@@ -44,6 +44,9 @@ public class GameMechanic : MonoBehaviour {
 
 	//variables to verify if the player read the walls
 	bool wallReadOnChamber;
+	bool wallReadonSmallChamber;
+	bool wallReadOnMainChamber;
+
 
 	//variable to verify if player got the statue
 	public static bool statueInventory;
@@ -56,6 +59,8 @@ public class GameMechanic : MonoBehaviour {
 	[SerializeField] State stateAffectedByButton;
 	[SerializeField] State stateBeforeButton;
 	[SerializeField] State stateAffectedByWallRead;
+	[SerializeField] State stateReadWallOnMainChamber;
+	[SerializeField] State stateReadWallOnSmallChamber;
 
 	//State in which specific image will be shown
 	[SerializeField] State stateOfAlien;
@@ -77,6 +82,10 @@ public class GameMechanic : MonoBehaviour {
 		hiddenTextExit.SetActive(false);
 		hiddenTextButton.SetActive(false);
 		hiddenTextPushButton.SetActive(false);
+
+		wallReadonSmallChamber = false;
+		wallReadOnChamber = false;
+		wallReadOnMainChamber = false;
 
 	}
 
@@ -148,6 +157,12 @@ public class GameMechanic : MonoBehaviour {
 		else if(currentState == stateReadWall){
 			wallReadOnChamber = true;
 		}
+		else if(currentState == stateReadWallOnSmallChamber){
+			wallReadonSmallChamber = true;
+		}
+		else if(currentState == stateReadWallOnMainChamber){
+			wallReadOnMainChamber = true;
+		}
 
 	}
 
@@ -165,7 +180,7 @@ public class GameMechanic : MonoBehaviour {
 		if(currentState == stateBeforeButton && sarcophagusRoom == false){
 			ManageHiddenState(stateBeforeButton);
 		}
-		if(currentState == stateAffectedByWallRead && wallReadOnChamber == true){
+		if(currentState == stateAffectedByWallRead && wallReadOnChamber == true && wallReadOnMainChamber == true && wallReadonSmallChamber==true){
 			ManageHiddenState(stateAffectedByWallRead);
 		}
 	}
@@ -210,7 +225,7 @@ public class GameMechanic : MonoBehaviour {
 		else{
 			hiddenTextButton.SetActive(false);
 		}
-		if(wallReadOnChamber == true){
+		if(wallReadOnChamber == true && wallReadOnMainChamber == true && wallReadonSmallChamber==true){
 			if(currentState == stateAffectedByWallRead){
 				hiddenTextCorridor.SetActive(true);
 			}

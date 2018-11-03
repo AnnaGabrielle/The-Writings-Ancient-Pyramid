@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef90c0482a0a0524a89991cc99215d42, type: 3}
+  m_Name: A14.Read Wall on Small Chamber
+  m_EditorClassIdentifier: 
+  storyText: "You see strange drawings on the wall.\nPeople bowing to strange skinny
+    creatures with long tunics. \nThere are things written but you can't understand.
+    \ \n\n1. Go back to Small Chamber"
+  nextStates:
+  - {fileID: 11400000, guid: b2b90e4b349659a4aa00e82a916bceba, type: 2}
+  hiddenStates: []
+  stateType: 0

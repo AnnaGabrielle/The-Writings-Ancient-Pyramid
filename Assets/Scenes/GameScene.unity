@@ -182,6 +182,10 @@ MonoBehaviour:
   stateBeforeButton: {fileID: 11400000, guid: d71e9b0d27aaa7048bcc86c0beaa21b8, type: 2}
   stateAffectedByWallRead: {fileID: 11400000, guid: 85e9fbf7bfb4e424cb9a7f798bfe81ae,
     type: 2}
+  stateReadWallOnMainChamber: {fileID: 11400000, guid: 438a1985a3c1719449389ee77c60d433,
+    type: 2}
+  stateReadWallOnSmallChamber: {fileID: 11400000, guid: a45bc1d7f2f411349aacd4e96a60e507,
+    type: 2}
   stateOfAlien: {fileID: 11400000, guid: 21848e0cc43408f4997584c6d3b54030, type: 2}
 --- !u!1 &141942217
 GameObject:
