@@ -11,13 +11,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef90c0482a0a0524a89991cc99215d42, type: 3}
   m_Name: A0.Start State
   m_EditorClassIdentifier: 
-  storyText: "The place you entered is now closed because of a rock sliding that was
+  storyText: "The place you entered is now closed because of a rock slide that was
     caused\r by the tremor that you just felt. \nThe pyramid is dark and you can\u2019t
-    see ahead without getting\r close. \n\nYou decide to:\n1. Force the exit\n2. Go
-    to Main Chamber\n3. Continue through the corridor"
+    see ahead without getting\r close. \n\nYou decide to:\n1. Force your way out \n2.
+    Go to the Main Chamber\n3. Continue through the corridor"
   nextStates:
   - {fileID: 11400000, guid: 0e66b48b36e2dc4449265f86eaa445c3, type: 2}
   - {fileID: 11400000, guid: f060199c86a1e2144b6832d5b58b20f9, type: 2}
   - {fileID: 11400000, guid: 85e9fbf7bfb4e424cb9a7f798bfe81ae, type: 2}
   hiddenStates:
   - {fileID: 11400000, guid: 1e8bd1dff6e4e3a4691f5945010c2aaa, type: 2}
+  stateType: 0

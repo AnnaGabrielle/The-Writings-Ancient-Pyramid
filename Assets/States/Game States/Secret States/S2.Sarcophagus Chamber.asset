@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Name: S2.Sarcophagus Chamber
   m_EditorClassIdentifier: 
   storyText: "After entering the room, you feel a little cold coming from the center
-    of the room. \nYou notice\r there is a mummy in that location. \nMaybe there is
-    something more in the room. \n\nYou choose to:\r\n1.Touch the mummy\r\n2.Search
-    Sarcophagus Chamber\n3.Go back to Passage Chamber"
+    of the room. \nYou notice\r there is a mummy in that location. \nBut perhaps there
+    is something else in the room. \n\nYou choose to:\r\n1.Touch the mummy\r\n2.Search
+    the Sarcophagus Chamber\n3.Go back to the Passage Chamber"
   nextStates:
   - {fileID: 11400000, guid: d6dca6d6cc5f91d48bf7d48b12f747a5, type: 2}
   - {fileID: 11400000, guid: 01c89c9adf4661148a138384f8dde9e4, type: 2}
   - {fileID: 11400000, guid: 368cd6b26b545a748a60fd2e2ea32fb5, type: 2}
   hiddenStates: []
+  stateType: 0

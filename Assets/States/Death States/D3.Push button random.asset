@@ -11,8 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef90c0482a0a0524a89991cc99215d42, type: 3}
   m_Name: D3.Push button random
   m_EditorClassIdentifier: 
-  storyText: "You start shaking, knowing what that number means. \nYou try to\r run
-    for your life, but the floor opens and you fall into the abyss. \n"
+  storyText: "You got a number lower than 2.\nYou start shaking, knowing what that
+    number means. \nYou try to\r run for your life, but the floor opens and you fall
+    into the abyss. \n"
   nextStates: []
   hiddenStates: []
   stateType: 2

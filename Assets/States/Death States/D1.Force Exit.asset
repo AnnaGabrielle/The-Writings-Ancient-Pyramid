@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef90c0482a0a0524a89991cc99215d42, type: 3}
   m_Name: D1.Force Exit
   m_EditorClassIdentifier: 
-  storyText: "You force the exit and the rocks that were blocking you start to\r\ntremble.\r
-    \nThe rocks fall on you and you get buried by them. "
+  storyText: "You force the entrance and the rocks that were blocking you start to\r
+    tremble.\r \nThe rocks fall on you and you get buried by them. "
   nextStates: []
   hiddenStates: []
   stateType: 2

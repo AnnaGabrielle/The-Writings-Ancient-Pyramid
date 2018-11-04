@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Name: A3.Read wall Main Chamber
   m_EditorClassIdentifier: 
   storyText: "You don't understand what is written, but someone drew\r\nstrange creatures
-    all over the wall.\n\n1. Go back to Main Chamber."
+    all over the wall.\n\n1. Go back to the Main Chamber."
   nextStates:
   - {fileID: 11400000, guid: f060199c86a1e2144b6832d5b58b20f9, type: 2}
   hiddenStates: []
+  stateType: 0

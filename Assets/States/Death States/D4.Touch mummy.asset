@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Name: D4.Touch mummy
   m_EditorClassIdentifier: 
   storyText: "It\u2019s the first time you see a mummy in front of you. \nThe idea
-    of\r finding such a mystical thing makes your heart accelerate. \nYou can\u2019t
-    control yourself and\r decides to touch it. \nThe moment you touch it, the rooms
-    gets pitch black. \nYou can\u2019t see a\r thing, just starts feeling cold. \nIt
-    gets colder and colder, you can\u2019t move anymore. "
+    of\r finding such a mystical thing makes your heart race. \nYou can\u2019t control
+    yourself and\r decide to touch it. \nThe moment you touch it, the rooms gets pitch
+    black. \nYou can\u2019t see a\r thing, just starts feeling cold. \nIt gets colder
+    and colder, you can\u2019t move anymore. "
   nextStates: []
   hiddenStates: []
   stateType: 2

@@ -145,8 +145,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -17.3, y: -29.3}
-  m_SizeDelta: {x: 598.6, y: 347.7}
+  m_AnchoredPosition: {x: -23, y: -25}
+  m_SizeDelta: {x: 605.8, y: 347.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &356827599
 MonoBehaviour:
@@ -174,18 +174,18 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Read the story while you play and decide which direction you should take.
-    \nClick on the number on the upper level of you keyboard that corresponds with
-    the decision you made basead on the options given. \nThe number that corresponds
-    with the option is the first thing that appears in the line of it. \nExample:\n\t1.
+    \nPress the key (on the upper row of the keyboard) corresponding to the number
+    in the decision you made basead on the options given. \r\nThe number that corresponds
+    with the option is the first thing that appears in the line. \nExample:\n\t1.
     Read the wall \n\t2. Go back\nIf you click 1 on the keyboard, you will read the
-    wall. "
+    wall!"
 --- !u!222 &356827600
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -224,7 +224,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -34, y: -188}
+  m_AnchoredPosition: {x: -34, y: -183}
   m_SizeDelta: {x: 425.05, y: 78.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &429697803
@@ -469,8 +469,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 29.2, y: -1.4}
-  m_SizeDelta: {x: 982.6, y: 714.7}
+  m_AnchoredPosition: {x: 0.000005722, y: -8.1}
+  m_SizeDelta: {x: 1011.8, y: 712.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &558657211
 MonoBehaviour:

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: A14.Read Wall on Small Chamber
   m_EditorClassIdentifier: 
   storyText: "You see strange drawings on the wall.\nPeople bowing to strange skinny
-    creatures with long tunics. \nThere are things written but you can't understand.
-    \ \n\n1. Go back to Small Chamber"
+    creatures with long tunics. \nThere are things written but you can't understand
+    them.  \n\n1. Go back to the Small Chamber"
   nextStates:
   - {fileID: 11400000, guid: b2b90e4b349659a4aa00e82a916bceba, type: 2}
   hiddenStates: []

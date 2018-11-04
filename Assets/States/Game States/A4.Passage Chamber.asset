@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Name: A4.Passage Chamber
   m_EditorClassIdentifier: 
   storyText: "There is nothing much in the room. \n\u201CThere is no need to stay
-    in this place\u201D, you think to yourself. \n\nYou decide to:\r\n1.Go to the
-    Bones Chamber\n2.Go to the Written Walls Chamber\n3.Go back to Main Chamber"
+    in this place\u201D- you think to yourself. \n\nYou decide to:\r\n1.Go to the
+    Bones Chamber\n2.Go to the Written Walls Chamber\n3.Go back to the Main Chamber"
   nextStates:
   - {fileID: 11400000, guid: 7847217d33ea09849a08ace5d63b4f26, type: 2}
   - {fileID: 11400000, guid: 09d8aa8c0996ca64782ac87d53237a9e, type: 2}
   - {fileID: 11400000, guid: f060199c86a1e2144b6832d5b58b20f9, type: 2}
   hiddenStates:
   - {fileID: 11400000, guid: f03605ef22e0441488cb54c128725922, type: 2}
+  stateType: 0

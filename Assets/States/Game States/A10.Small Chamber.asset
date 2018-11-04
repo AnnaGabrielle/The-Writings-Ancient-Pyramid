@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Name: A10.Small Chamber
   m_EditorClassIdentifier: 
   storyText: "It\u2019s just an empty room with something on the wall.\nIt doesn\u2019t
-    seem to have anything important in it.\r\n\n1. Read Wall\n2.Go back to Corrido"
+    seem to have anything important in it.\r\n\n1. Read the Wall\n2.Go back to the
+    Corridor"
   nextStates:
   - {fileID: 11400000, guid: a45bc1d7f2f411349aacd4e96a60e507, type: 2}
   - {fileID: 11400000, guid: 85e9fbf7bfb4e424cb9a7f798bfe81ae, type: 2}

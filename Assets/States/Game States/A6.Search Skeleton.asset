@@ -13,8 +13,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   storyText: "You decide to search the skeleton that was lying there. \nAfter a\r
     while, you noticed that it was sitting on a piece of paper. \nYou take the paper
-    and tries to read\r it. \nThe paper is a map of the Entrance. \n\n\n1. Go back
-    to the Bones Chamber"
+    and try to read\r it. \nThe paper is a map of the Entrance. \n\n\n1. Go back to
+    the Bones Chamber"
   nextStates:
   - {fileID: 11400000, guid: 7847217d33ea09849a08ace5d63b4f26, type: 2}
   hiddenStates: []
+  stateType: 0

@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Name: A5.Bones Chamber
   m_EditorClassIdentifier: 
   storyText: "You notice a human skeleton in the corner of the room. \nYour heart
-    start to\r accelerate, you feel a little dizzy.\nThat skeleton looks from someone
-    that was trapped in this\r place just like you. \nMaybe it discovered something
-    that could help you scape, or maybe not.\r\nYou decide to:\n1.Search the skeleton\r\n2.Go
-    back to the Passage Chamber"
+    start to\r accelerate, you feel a little dizzy.\nThat skeleton looks like it's
+    from someone that was trapped in this\r place just like you! \nMaybe it discovered
+    something that could help you escape, or maybe not.\r\nYou decide to:\n1.Search
+    the skeleton\r\n2.Go back to the Passage Chamber"
   nextStates:
   - {fileID: 11400000, guid: c0c1dd03813b1c944bc8da0d08609a1d, type: 2}
   - {fileID: 11400000, guid: 368cd6b26b545a748a60fd2e2ea32fb5, type: 2}
   hiddenStates: []
+  stateType: 0

@@ -14,7 +14,8 @@ MonoBehaviour:
   storyText: "You start searching the room. \nYou are sure there is something important
     in this room. \nAfter some minutes, you see something shining. \nYou found a pretty\r
     stone and decides to take it. \nFor sure this goes somewhere.\n\n1. Go back to
-    Sarcophagus Chamber."
+    the Sarcophagus Chamber."
   nextStates:
   - {fileID: 11400000, guid: f03605ef22e0441488cb54c128725922, type: 2}
   hiddenStates: []
+  stateType: 0

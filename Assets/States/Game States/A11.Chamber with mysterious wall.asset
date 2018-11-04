@@ -11,9 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef90c0482a0a0524a89991cc99215d42, type: 3}
   m_Name: A11.Chamber with mysterious wall
   m_EditorClassIdentifier: 
-  storyText: "It\u2019s just an empty room. \nThere is a hole in one of the walls\u2026
-    maybe something\r should be there?\n\n1.Go back to Corridor"
+  storyText: "It\u2019s just an empty room. \nThere is a hole in one of the wall.
+    \nMaybe something\r was supposed to be there?\n\n1.Go back to the Corridor"
   nextStates:
   - {fileID: 11400000, guid: 85e9fbf7bfb4e424cb9a7f798bfe81ae, type: 2}
   hiddenStates:
   - {fileID: 11400000, guid: c836b56dddb0f2549b3731fc835ad770, type: 2}
+  stateType: 0

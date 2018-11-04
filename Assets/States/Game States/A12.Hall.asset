@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Name: A12.Hall
   m_EditorClassIdentifier: 
   storyText: "It seems just like the other corridor.. but there is a button on the
-    wall with\r something written on the side: \n\u201CHigher than 2 will help you,
-    2 or lower will kill you. Are you\r lucky today?.\u201D\r\n\nYou decide to:\r\n1.
-    Go back to Corridor"
+    wall with\r something written on the side: \nHigher than 2 will help you, 2 or
+    lower will kill you. Are you\r lucky today?\n\nYou decide to:\r\n1. Go back to
+    the Corridor"
   nextStates:
   - {fileID: 11400000, guid: 85e9fbf7bfb4e424cb9a7f798bfe81ae, type: 2}
   hiddenStates:
   - {fileID: 11400000, guid: c3e4ed1013ad03744854a76c52ff96ea, type: 2}
+  stateType: 0

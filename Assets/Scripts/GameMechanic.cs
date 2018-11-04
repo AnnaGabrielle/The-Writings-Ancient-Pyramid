@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using System.Linq;
 
 public class GameMechanic : MonoBehaviour {
 
@@ -99,7 +98,6 @@ public class GameMechanic : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		//CheckWinLoseStates();
 		CheckHiddenStates();
 		ManageState();
 		CheckForInventory();
@@ -117,7 +115,6 @@ public class GameMechanic : MonoBehaviour {
 			}
 		}
 		CheckWinLoseStates();
-		//textComponent.text = currentState.GetStateStory();
     }
 
 	private void ManageHiddenState(State onState)
@@ -168,26 +165,27 @@ public class GameMechanic : MonoBehaviour {
 
 	private void CheckHiddenStates(){
 		//check if the gameObject is active
-		if(inventoryMap.activeInHierarchy==true && currentState==stateAffectedByMap){
+		if(inventoryMap.activeInHierarchy && currentState==stateAffectedByMap){
 			ManageHiddenState(stateAffectedByMap);
 		}
-		if(inventoryStone.activeInHierarchy == true && currentState==stateAffectedByStone){
+		if(inventoryStone.activeInHierarchy && currentState==stateAffectedByStone){
 			ManageHiddenState(stateAffectedByStone);
 		}
-		if(sarcophagusRoom == true && currentState == stateAffectedByButton){
+		if(sarcophagusRoom && currentState == stateAffectedByButton){
 			ManageHiddenState(stateAffectedByButton);
 		}
-		if(currentState == stateBeforeButton && sarcophagusRoom == false){
+		if(currentState == stateBeforeButton && !sarcophagusRoom){
 			ManageHiddenState(stateBeforeButton);
 		}
-		if(currentState == stateAffectedByWallRead && wallReadOnChamber == true && wallReadOnMainChamber == true && wallReadonSmallChamber==true){
+		if(currentState == stateAffectedByWallRead && wallReadOnChamber && wallReadOnMainChamber && wallReadonSmallChamber)
+		{
 			ManageHiddenState(stateAffectedByWallRead);
 		}
 	}
 
 	private void CheckHiddenText(){
 		//Check if conditions are met to the hidden text appear or disappear
-		if(inventoryMap.activeInHierarchy==true)
+		if(inventoryMap.activeInHierarchy)
 		{
 			if(currentState == stateAffectedByMap){
 				hiddenTextEntrance.SetActive(true);
@@ -196,7 +194,7 @@ public class GameMechanic : MonoBehaviour {
 				hiddenTextEntrance.SetActive(false);
 			}
 		}
-		if(inventoryStone.activeInHierarchy==true)
+		if(inventoryStone.activeInHierarchy)
 		{
 			if(currentState == stateAffectedByStone){
 				hiddenTextExit.SetActive(true);
@@ -205,7 +203,7 @@ public class GameMechanic : MonoBehaviour {
 				hiddenTextExit.SetActive(false);
 			}
 		}
-		if(sarcophagusRoom==true)
+		if(sarcophagusRoom)
 		{
 			if(currentState == stateAffectedByButton){
 				hiddenTextSarcophagusRoom.SetActive(true);
@@ -225,7 +223,7 @@ public class GameMechanic : MonoBehaviour {
 		else{
 			hiddenTextButton.SetActive(false);
 		}
-		if(wallReadOnChamber == true && wallReadOnMainChamber == true && wallReadonSmallChamber==true){
+		if(wallReadOnChamber && wallReadOnMainChamber && wallReadonSmallChamber){
 			if(currentState == stateAffectedByWallRead){
 				hiddenTextCorridor.SetActive(true);
 			}

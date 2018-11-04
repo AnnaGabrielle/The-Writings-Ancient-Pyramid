@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Name: S3.Strange Chamber
   m_EditorClassIdentifier: 
   storyText: "This room wasn\u2019t here before. You see\r strange creatures approaching
-    you. \nThey are\u2026 Aliens?? They say they came in peace. You\r ask what they
+    you. \nThey are\u2026 aliens?? They say they came in peace. You\r ask what they
     are doing in here.\nNoticing you are not afraid of them, they explain everything\r
     to you. Your mind is blown away. \nThey ask if you want to join them and leave
-    Earth to meet\r new places. \n\nYou decide to:\r\n1.Join Aliens\r\n2.Go Back to
-    Corridor"
+    Earth to meet\r new places. \n\nYou decide to:\r\n1.Join the aliens\r\n2.Go Back
+    to Corridor"
   nextStates:
   - {fileID: 11400000, guid: 6b40e4b6f49ba6445bf4da28a3fd0a98, type: 2}
   - {fileID: 11400000, guid: 85e9fbf7bfb4e424cb9a7f798bfe81ae, type: 2}
   hiddenStates: []
+  stateType: 0

@@ -30,7 +30,7 @@ public class WinController : MonoBehaviour {
 			winWithoutStatueGameObject.SetActive(false);
 			textComponent.text = currentState.GetStateStory();
 		}
-		else if(currentState== winState && statue == true){
+		else if(currentState== winState && statue){
 			secretWinGameObject.SetActive(false);
 			winWithStatueGameObject.SetActive(true);
 			winWithoutStatueGameObject.SetActive(false);

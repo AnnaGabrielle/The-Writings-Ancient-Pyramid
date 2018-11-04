@@ -429,7 +429,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.654902, g: 0.5921569, b: 0.47450984, a: 1}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -610,7 +610,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 4. Search Entrance
+  m_Text: 4. Search the Entrance
 --- !u!222 &621752256
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -882,7 +882,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 93}
+  m_AnchoredPosition: {x: 0, y: 161.48}
   m_SizeDelta: {x: 495.7, y: 64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &852626747
@@ -917,7 +917,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 2. Push Button
+  m_Text: 2. Press Button
 --- !u!222 &852626748
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1045,7 +1045,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 4. Go to Sarcophagus Chamber
+  m_Text: 4. Go to the Sarcophagus Chamber
 --- !u!222 &996959487
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1209,8 +1209,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -96.48999}
-  m_SizeDelta: {x: 495.7, y: 133.58}
+  m_AnchoredPosition: {x: 0, y: -117.2}
+  m_SizeDelta: {x: 495.7, y: 175}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1314376310
 MonoBehaviour:
@@ -1244,8 +1244,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "You notice the hole in the wall has the same shape as the stone you found.
-    \n2. Put Stone on the wall (Exit)"
+  m_Text: "You notice that the hole in the wall has the same shape as the stone you
+    found. \n2. Put the Stone on the wall"
 --- !u!222 &1314376311
 CanvasRenderer:
   m_ObjectHideFlags: 0
